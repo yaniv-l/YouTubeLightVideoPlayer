@@ -1,7 +1,7 @@
 # YouTubeLightVideoPlayer
 
 This is a react repo for a light YouTube video search and play.
-Build based on the  Stephen Grider course for [React-Redux](https://www.udemy.com/react-redux/)?
+Build based on the  Stephen Grider course for [React-Redux](https://www.udemy.com/react-redux/).
 
 ###Getting Started###
 
