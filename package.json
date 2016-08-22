@@ -1,13 +1,15 @@
 {
-  "name": "React simple starter - LightYouTubePlayer app",
+  "name": "light_youtube_player_app",
   "version": "1.0.0",
   "description": "Simple starter package for React and Babel support",
   "main": "index.js",
   "repository": "https://github.com/yaniv-l/YouTubeLightVideoPlayer.git",
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "startDev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "postinstall": "webpack -p",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
