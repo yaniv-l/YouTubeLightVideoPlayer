@@ -1,4 +1,4 @@
-var path = '';
+var path[] = {};
 module.exports = {
   entry: [
     './src/index.js'
