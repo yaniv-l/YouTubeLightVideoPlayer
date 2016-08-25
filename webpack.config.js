@@ -1,4 +1,3 @@
-var path = require("path");
 module.exports = {
   entry: [
     './src/index.js'
@@ -16,9 +15,6 @@ module.exports = {
         presets: ['react', 'es2015', 'stage-1']
       }
     }]
-  },
-  resolveLoader: {
-    root: path.join(__dirname, 'node_modules')
   },
   resolve: {
     extensions: ['', '.js', '.jsx']
