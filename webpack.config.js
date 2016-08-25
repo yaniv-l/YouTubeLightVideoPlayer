@@ -1,3 +1,4 @@
+// Added to suport deploy to Heroku
 var path = require("path");
 module.exports = {
   entry: [
@@ -17,6 +18,7 @@ module.exports = {
       }
     }]
   },
+  // Added to suport deploy to Heroku
   resolveLoader: {
     root: path.join(__dirname, 'node_modules')
   },
